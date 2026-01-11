@@ -8,7 +8,16 @@ Now swap so the first variable gets the value of the second and vice versa.
 Without using the built in Math functionality and constants.
 Calculate the area of a circle with the radius 6.
 */
+const PI = 3.14;
+let circleRadius = 6;
 
+function calculateAreaOfCircle (circleRadius,PI){
+ 
+    let areaOfCircle = PI * circleRadius* 2 * 2
+    return areaOfCircle
+}
+
+console.log(calculateAreaOfCircle(circleRadius,PI));
 /* Task 3
 Given the two strings "If at first you do not succeed, try, try again" and
 "Fall seven times, stand up eight"
